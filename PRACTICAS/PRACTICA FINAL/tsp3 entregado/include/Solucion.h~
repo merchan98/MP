@@ -1,0 +1,42 @@
+#ifndef SOLUCION_H
+#define SOLUCION_H
+#include <iostream>
+#include <cmath>
+#include <cstring>
+#include <fstream>
+#include <stdlib.h>
+#include <random>
+
+
+using namespace std ;
+
+class Solucion {
+
+	private:
+		
+		int *Recorrido ;
+		int num_ciudade ;
+
+		void Reservar() ;
+		void Liberar() ;
+		void Copiar (const Solucion &orig) ;
+
+	public:
+		Solucion(int* v, int n);
+		Solucion(int n) ;
+		Solucion(const Solucion &otra) ;
+		Solucion();
+		~Solucion() ;
+		bool esCorrecta() const; 
+		int ciudad(int pos) const; 
+		int GetNumCiudades () const;
+		int posicion(int c) const;
+		string to_string(const Solucion &sol) const;
+		Solucion &operator= (const Solucion &orig) ;
+/*		ostream &operator<< (ostream &flujo, const Solucion &orig); */
+		
+		
+		
+};
+
+#endif

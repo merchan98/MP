@@ -1,0 +1,12 @@
+El recorrido 0, 2, 7, 9, 8, 4, 5, 3, 6, 1 tiene longitud 3278
+El recorrido 1, 6, 2, 0, 4, 5, 3, 7, 9, 8 tiene longitud 3256
+El recorrido 2, 0, 4, 5, 3, 7, 9, 8, 6, 1 tiene longitud 3255
+El recorrido 3, 5, 4, 0, 2, 7, 9, 8, 6, 1 tiene longitud 3436
+El recorrido 4, 5, 3, 0, 2, 7, 9, 8, 6, 1 tiene longitud 3439
+El recorrido 5, 4, 3, 0, 2, 7, 9, 8, 6, 1 tiene longitud 3506
+El recorrido 6, 1, 2, 0, 4, 5, 3, 7, 9, 8 tiene longitud 3255
+El recorrido 7, 9, 8, 2, 0, 4, 5, 3, 6, 1 tiene longitud 3453
+El recorrido 8, 9, 7, 2, 0, 4, 5, 3, 6, 1 tiene longitud 3454
+El recorrido 9, 8, 7, 2, 0, 4, 5, 3, 6, 1 tiene longitud 3455
+
+El mejor recorrido es 2, 0, 4, 5, 3, 7, 9, 8, 6, 1 con longitud 3255
